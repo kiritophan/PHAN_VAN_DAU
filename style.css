@@ -12,10 +12,11 @@
 }
 
 .image-one .title-image-one {
-    background-color: orange;
+    display: flex;
+    background-color: #efc15d;
     width: 70%;
     height: 30%;
-    opacity: 0.5;
+    opacity: 0.8;
     position: absolute;
     top: 450px;
     left: 0;
