@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.travel-agency-header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 10px;
+}
+
+.image-one .title-image-one {
+    background-color: orange;
+    width: 70%;
+    height: 30%;
+    opacity: 0.5;
+    position: absolute;
+    top: 450px;
+    left: 0;
+}
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.travel-agency-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 50px auto;
+    justify-content: space-around;
+    object-fit: cover;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.travel-agency-content img {
+    border-top: 10px solid orange;
+}
+
+.content-box-one {
+    display: flex;
+}
+
+.cellphone {
+    flex: 2;
+    margin: 10px;
+}
+
+.sealions {
+    flex: 2;
+    margin: 10px;
+}
+
+.content-box-two {
+    display: flex;
+}
+
+.truck {
+    margin: 10px;
+    flex: 2;
+}
+
+.nowornever {
+    margin: 10px;
+    width: 600px;
+    flex: 2;
+}
